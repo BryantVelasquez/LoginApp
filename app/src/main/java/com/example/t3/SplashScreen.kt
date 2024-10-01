@@ -21,8 +21,7 @@ fun SplashScreen(navController: NavController) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Replace with your image
-        // Image(painter = painterResource(id = R.drawable.your_image), contentDescription = null)
+        
         Text(text = "Please Log In", fontSize = 50.sp, color = Color.Blue)
 
         LaunchedEffect(Unit) {
